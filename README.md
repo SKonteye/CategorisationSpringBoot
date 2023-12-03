@@ -1,17 +1,18 @@
 # CategorisationSpringBoot
- # Problématique:
-Vous êtes l'ingénieur logiciel consulté par une entreprise de la place afin de résoudre une problématique de taille sur l’une de leur plateforme concernant la structuration de données autour des entités catégorie et produit.
-En ce sens que la future plateforme qui devra être mise en place va accueillir la structuration hiérarchique des différentes grandes surfaces de la place : 
- AUCHAN: 2 niveaux de catégorisation
-Hypermarché Exclusive: 3 niveaux de catégorisation
-UTILE: 2 niveaux de catégorisation
-Sakanal: 4 niveaux de catégorisation
-Vous devez donc concevoir une base de donnée évolutive  , scalable et qui puisse s’adapter sans besoin d'être amendée, à toutes les grandes surfaces peu importe leur niveau de catégorisation: N niveaux avec N allant de 1 à plusieurs.
-Un produit est lié à une  catégorie, et une catégorie peut être lié à 0 ou plusieurs.
-La base de données requise est postgresql.
-Le module doit être écrit en spring avec l’architecture mvc en intégrant les différentes interfaces de IN( saisie des données) et de OUT (affichage des données) 
-en considérant les problématiques de montée en charge, proposer une logique OUT qui puisse prévenir de ce genre de problème.
-en prenant en compte le fait que vous ne soyez pas immortel, mettant en place une documentation de votre code ou logique métier et vos webservices si existant.
+ # Problem
+You are a software engineer consulted by a local company to solve a significant problem on one of their platforms regarding the data structure around category and product entities. The future platform to be implemented will host the hierarchical structuring of various supermarkets in the area:
+
+    AUCHAN: 2 levels of categorization
+    Exclusive Hypermarket: 3 levels of categorization
+    UTILE: 2 levels of categorization
+    Sakanal: 4 levels of categorization
+
+Therefore, you must design an evolutionary, scalable database that can adapt without needing amendment to any supermarket regardless of their level of categorization: N levels with N ranging from 1 to several.
+A product is linked to a category, and a category can be linked to 0 or several.
+The required database is PostgreSQL.
+The module must be written in Spring with the MVC architecture, integrating the various interfaces of IN (data entry) and OUT (data display).
+Considering the issues of scaling, propose an OUT logic that can prevent this type of problem.
+Taking into account that you are not immortal, set up documentation for your code or business logic and your web services if existing.
 ## Project Documentation: Categorization System
 # Overview
 
